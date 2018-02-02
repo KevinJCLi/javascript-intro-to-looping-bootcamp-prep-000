@@ -6,13 +6,19 @@ function forLoop (array) {
       [...array, `I am ${i} strange loops.`];
     }
   }
+  return array;
 }
 
 function whileLoop (n) {
-  console.log(n--);
+  while (n > 0) {
+    console.log(n--);
+  }
+  return "done";
 }
 
-
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
 
 function doWhileLoop (array) {
   
