@@ -12,6 +12,8 @@ function whileLoop (n) {
   console.log(n--);
 }
 
+
+
 function doWhileLoop (array) {
   
 }
